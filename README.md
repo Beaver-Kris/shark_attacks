@@ -1,3 +1,5 @@
+[🇷🇺 Русский](README.ru.md) | [🇬🇧 English](README.md)
+
 # Shark Attack Analysis
 
 **Data cleaning · SQL analysis · Power BI dashboard**
