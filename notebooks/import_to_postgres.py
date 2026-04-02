@@ -14,7 +14,9 @@ TABLE_NAME = 'shark_attacks'
 
 
 # Get data
-csv_path = r'C:/my pet projects/shark_attacks/data/processed/shark_attacks_clean.csv'
+current_folder = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(current_folder, '../data/processed/shark_attacks_clean.csv')
+csv_path = os.path.normpath(csv_path)
 df = pd.read_csv(csv_path)
 print(f"Loaded {len(df)} rows")
 
