@@ -6,4 +6,3 @@ env/
 /notebooks/config.py
 /notebooks/.env
 *.pyc
-.
