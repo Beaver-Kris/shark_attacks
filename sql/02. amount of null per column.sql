@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS null_stats;
 -- Amount of Null per column
 DO $$
 DECLARE 
@@ -22,4 +23,3 @@ SELECT column_names, null_count
 FROM null_stats 
 ORDER BY null_count DESC;
 
-DROP TABLE null_stats;
